@@ -1,0 +1,56 @@
+GET https://localhost:26797/api/stock/4
+
+<> 2020-12-10T033644.200.json
+
+###
+
+GET https://localhost:26797/api/stock/4
+
+<> 2020-12-10T033326.200.json
+
+###
+
+GET https://localhost:26797/api/stock/4
+
+<> 2020-12-10T033254.200.json
+
+###
+
+GET https://localhost:26797/api/stock/4
+
+###
+
+GET https://localhost:26797/api/stock/4
+
+<> 2020-12-10T031449.200.json
+
+###
+
+GET https://localhost:26797/api/stock/2
+
+<> 2020-12-10T031441.200.json
+
+###
+
+GET https://localhost:26797/api/stock/2
+
+<> 2020-12-10T031119.500.txt
+
+###
+
+GET https://localhost:26797/api/stock/2
+
+<> 2020-12-10T031020.200.json
+
+###
+
+GET https://localhost:26797/api/stock
+
+<> 2020-12-10T025249.200.json
+
+###
+
+GET https://localhost:5001/api/stock
+
+###
+

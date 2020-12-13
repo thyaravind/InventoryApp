@@ -1,0 +1,23 @@
+﻿@using System.Drawing.Printing
+
+@{ string s = "This is written in html page itself";}
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<h1>Product Name: @ViewBag.Product.ProductName</h1>
+<h2>Product Desc: @ViewBag.Product.ProductDesc</h2>
+<h2>Product Price: @ViewBag.Product.Price</h2>
+<h2>Collection: @ViewBag.Product.Collection</h2>
+
+<h2>@s</h2>
+
+@*
+@foreach (var item in ViewBag.Product)
+{
+    <div>@item</div>
+    
+} *@

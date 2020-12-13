@@ -1,0 +1,12 @@
+@model InventoryApp.Models.Product
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1>Product Name: @Model.ProductName</h1>
+<h2>Product Desc: @Model.ProductDesc</h2>
+<h2>Product Price: @Model.Price</h2>
+<h2>Collection: @Model.Collection</h2>

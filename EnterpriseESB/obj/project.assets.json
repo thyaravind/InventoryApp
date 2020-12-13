@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RestSharp/106.11.8-alpha.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RestSharp/106.11.8-alpha.0.11": {
+      "sha512": "AlO3iqYmKFxTLt+BT1Itf/JqkO0mPIAaIpqyrv5AI4drD7GFio5vzdrqkxW8DcANZEPqwKj8j9LGbFnUWrSv0A==",
+      "type": "package",
+      "path": "restsharp/106.11.8-alpha.0.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.11.8-alpha.0.11.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "RestSharp >= 106.11.8-alpha.0.11"
+    ]
+  },
+  "packageFolders": {
+    "/Users/aravind/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/aravind/Projects/InventoryApp/EnterpriseESB/EnterpriseESB.csproj",
+      "projectName": "EnterpriseESB",
+      "projectPath": "/Users/aravind/Projects/InventoryApp/EnterpriseESB/EnterpriseESB.csproj",
+      "packagesPath": "/Users/aravind/.nuget/packages/",
+      "outputPath": "/Users/aravind/Projects/InventoryApp/EnterpriseESB/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/aravind/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.11.8-alpha.0.11, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+/Users/aravind/Projects/InventoryApp/DataAccessLib/bin/Debug/netstandard2.1/DataAccessLib.deps.json
+/Users/aravind/Projects/InventoryApp/DataAccessLib/bin/Debug/netstandard2.1/DataAccessLib.dll
+/Users/aravind/Projects/InventoryApp/DataAccessLib/bin/Debug/netstandard2.1/DataAccessLib.pdb
+/Users/aravind/Projects/InventoryApp/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.csprojAssemblyReference.cache
+/Users/aravind/Projects/InventoryApp/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.AssemblyInfoInputs.cache
+/Users/aravind/Projects/InventoryApp/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.AssemblyInfo.cs
+/Users/aravind/Projects/InventoryApp/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.csproj.CoreCompileInputs.cache
+/Users/aravind/Projects/InventoryApp/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.dll
+/Users/aravind/Projects/InventoryApp/DataAccessLib/obj/Debug/netstandard2.1/DataAccessLib.pdb

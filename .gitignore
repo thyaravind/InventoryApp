@@ -3,6 +3,7 @@
 /packages
 .vs/
 
+InventoryAPI/DataAccess/HelperClass.cs
 
 
 
