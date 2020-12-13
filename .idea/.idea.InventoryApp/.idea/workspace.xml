@@ -29,7 +29,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc0e0aa-d45f-45c3-b5f2-83211afc0d9a" name="Default Changelist" comment="" />
+    <list default="true" id="afc0e0aa-d45f-45c3-b5f2-83211afc0d9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryApp/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,10 +53,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/InventoryWebApp/App_Start/FilterConfig.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InventoryWebApp/App_Start/BundleConfig.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebStoreApp/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InventoryWebApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebStoreApp/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebStoreApp/App_Start/BundleConfig.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -326,7 +325,7 @@
       <workItem from="1607720387444" duration="4536000" />
       <workItem from="1607733271192" duration="290000" />
       <workItem from="1607823144599" duration="434000" />
-      <workItem from="1607895723750" duration="3095000" />
+      <workItem from="1607895723750" duration="3522000" />
     </task>
     <servers />
   </component>
@@ -373,26 +372,26 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1232" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607628770242" />
-    <state width="1878" height="230" key="GridCell.Tab.0.bottom" timestamp="1607900324561">
+    <state width="1878" height="230" key="GridCell.Tab.0.bottom" timestamp="1607901047368">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="237" key="GridCell.Tab.0.bottom/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607728214597" />
-    <state width="1878" height="230" key="GridCell.Tab.0.bottom/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607900324561" />
-    <state width="1878" height="230" key="GridCell.Tab.0.center" timestamp="1607900324560">
+    <state width="1878" height="230" key="GridCell.Tab.0.bottom/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607901047368" />
+    <state width="1878" height="230" key="GridCell.Tab.0.center" timestamp="1607901047367">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="237" key="GridCell.Tab.0.center/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607728214595" />
-    <state width="1878" height="230" key="GridCell.Tab.0.center/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607900324560" />
-    <state width="1878" height="230" key="GridCell.Tab.0.left" timestamp="1607900324560">
+    <state width="1878" height="230" key="GridCell.Tab.0.center/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607901047367" />
+    <state width="1878" height="230" key="GridCell.Tab.0.left" timestamp="1607901047364">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="237" key="GridCell.Tab.0.left/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607728214595" />
-    <state width="1878" height="230" key="GridCell.Tab.0.left/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607900324560" />
-    <state width="1878" height="230" key="GridCell.Tab.0.right" timestamp="1607900324561">
+    <state width="1878" height="230" key="GridCell.Tab.0.left/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607901047364" />
+    <state width="1878" height="230" key="GridCell.Tab.0.right" timestamp="1607901047367">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="237" key="GridCell.Tab.0.right/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607728214596" />
-    <state width="1878" height="230" key="GridCell.Tab.0.right/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607900324561" />
+    <state width="1878" height="230" key="GridCell.Tab.0.right/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607901047367" />
     <state width="1846" height="392" key="GridCell.Tab.1.bottom" timestamp="1607698054122">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
