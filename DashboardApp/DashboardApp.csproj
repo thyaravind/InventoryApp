@@ -126,6 +126,8 @@
         <Compile Include="Controllers\WarehouseController.cs" />
         <Compile Include="Controllers\UserController.cs" />
         <Compile Include="Controllers\OrderController.cs" />
+        <Compile Include="Models\LoginObj.cs" />
+        <Compile Include="Models\Product.cs" />
     </ItemGroup>
     <ItemGroup>
         <Content Include="Content\bootstrap-theme.css" />
@@ -172,6 +174,7 @@
         <Folder Include="Views\Collection\" />
         <Folder Include="Views\Warehouse\" />
         <Folder Include="Views\Order\" />
+        <Folder Include="Models\" />
     </ItemGroup>
     <ItemGroup>
         <Content Include="fonts\glyphicons-halflings-regular.woff2" />

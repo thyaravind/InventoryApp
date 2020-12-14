@@ -1,12 +1,11 @@
-USE Customers
 
 
-Alter Proc spResetCustomers
+alter Proc crm.spResetCustomers
 AS
 BEGIN
 
-    drop table if exists customers
-    create table customers
+    drop table if exists crm.customers
+    create table crm.customers
     (
         customerID  int IDENTITY PRIMARY KEY,
         first_name    varchar(100)        NOT NULL,

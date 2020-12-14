@@ -1,10 +1,9 @@
-Use HR
 
 
-drop table if exists employees
-create table employees
+drop table if exists hr.employees
+create table hr.employees
 (
-    employeeID     char(10) IDENTITY PRIMARY KEY,
+    employeeID     char(10) PRIMARY KEY,
     first_name     varchar(100)        NOT NULL,
     last_name      varchar(100),
     age            TINYINT,
@@ -21,8 +20,8 @@ create table employees
 )
 
 
-drop table if exists employee_roles
-create table employee_roles
+drop table if exists hr.employee_roles
+create table hr.employee_roles
 (
     roleID       smallint IDENTITY PRIMARY KEY,
     name         varchar(100),
@@ -31,8 +30,8 @@ create table employee_roles
 
 )
 
-drop table if exists departments
-create table departments
+drop table if exists hr.departments
+create table hr.departments
 (
     departmentID smallint PRIMARY KEY,
     name         varchar(100),
@@ -40,8 +39,8 @@ create table departments
 )
 
 
-Alter table employees
-add constraint FK_Employee_Role Foreign key (roleID) REFERENCES employee_roles(roleID)
+Alter table hr.employees
+add constraint FK_Employee_Role Foreign key (roleID) REFERENCES hr.employee_roles(roleID)
 
-Alter table employee_roles
-add constraint FK_EmployeeRole_Dept Foreign key (departmentID) REFERENCES departments(departmentID)
+Alter table hr.employee_roles
+add constraint FK_EmployeeRole_Dept Foreign key (departmentID) REFERENCES hr.departments(departmentID)
