@@ -68,11 +68,11 @@ BEGIN
         warehouseID    tinyint      NOT NULL IDENTITY PRIMARY KEY,
         name  varchar(100) NOT NULL UNIQUE,
         regionID       tinyint,
-        street         varchar(100) NOT NULL,
+        street         varchar(100),
         address_1ine_2 varchar(250),
         address_line_3 varchar(250),
-        state          varchar(25)  NOT NULL,
-        country        CHAR(2)      NOT NULL,
+        state          varchar(25),
+        country        CHAR(2),
         zip            varchar(15)  NOT NULL,
     )
 
@@ -109,16 +109,24 @@ drop table if exists inventory.warehhouseManagers
 
 drop table if exists inventory.deliveryPartners
     create table inventory.deliveryPartners
-    (delivery_partnerID tinyint NOT NULL PRIMARY KEY,
+    (delivery_partnerID tinyint IDENTITY PRIMARY KEY,
     name varchar(100)
     )
 
 
 drop table if exists inventory.deliveryTypes
     create table inventory.deliveryTypes
-    (delivery_typeID tinyint NOT NULL PRIMARY KEY,
+    (delivery_typeID tinyint IDENTITY PRIMARY KEY,
     name varchar(100)
     )
+
+
+drop table if exists inventory.regions
+    create table inventory.regions
+    (regionID tinyint IDENTITY PRIMARY KEY,
+    name varchar(100)
+    )
+
 
 
 
@@ -162,5 +170,62 @@ add constraint FK_Warehouse_Manager Foreign key (employeeID) REFERENCES hr.emplo
 Alter table inventory.warehouseClerks
 add constraint FK_Warehouse_Clerk Foreign key (employeeID) REFERENCES hr.employees(employeeID)
 
+Alter table inventory.warehouses
+add constraint FK_Warehouse_Region Foreign key (regionID) REFERENCES inventory.regions(regionID)
+
 ---todo HR service will send updates to Inventory service when a new clerk or manager joins a warehouse - warehouseClerks, warehouseMangagers table
 ---todo Order Service will send updates when requested
+
+
+
+
+
+
+---Insertions
+
+BEGIN
+
+    insert into inventory.deliveryPartners
+    values ('USPS')
+
+    insert into inventory.deliveryTypes
+    values ('Normal')
+
+    insert into inventory.regions
+    values ('South West'),('North West'),('South East'),('North East'),('Mid North'),('Mid South')
+
+    insert into inventory.warehouses
+    (name,regionID,zip)values ('Arizona',1,85281)
+
+    insert into inventory.warehouses
+    (name,regionID,zip)values ('Seattle',2,98104)
+
+    insert into inventory.warehouses
+    (name,regionID,zip)values ('Jacksonville',3,32207)
+
+    insert into inventory.warehouses
+    (name,regionID,zip)values ('Dartmouth',4,02740)
+
+    insert into inventory.warehouses
+    (name,regionID,zip)values ('South Dakota',5,57501)
+
+    insert into inventory.warehouses
+    (name,regionID,zip)values ('Austin',6,78758)
+
+    insert into inventory.warehouses
+    (name,regionID,zip)values ('Los Angeles',1,90401)
+
+    insert into inventory.warehouses
+    (name,regionID,zip)values ('Sawtooth',2,83278)
+
+    insert into inventory.warehouses
+    (name,regionID,zip)values ('Atlanta',3,30313)
+
+    insert into inventory.warehouses
+    (name,regionID,zip)values ('Pennsylvania',4,16801)
+
+    select * from inventory.warehouses
+
+
+END
+

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffe292ab-7a79-4d1e-a941-c6a6547cb486" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/App_Start/BundleConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/App_Start/BundleConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/App_Start/RouteConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/App_Start/RouteConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Controllers/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Controllers/OrderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/DashboardApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/DashboardApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Global.asax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Global.asax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.intellisense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery.validate-vsdoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/modernizr-2.8.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Views/Home/IndexTemplate.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Views/Product/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Views/Product/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/Controllers/ESBController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/Controllers/ESBController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/EnterpriseESB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/EnterpriseESB.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/Debug/netcoreapp3.1/EnterpriseESB.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/Debug/netcoreapp3.1/EnterpriseESB.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/Debug/netcoreapp3.1/EnterpriseESB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/Debug/netcoreapp3.1/EnterpriseESB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/EnterpriseESB.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/EnterpriseESB.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/EnterpriseESB.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/EnterpriseESB.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/Controllers/DeliveryTimeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Controllers/DeliveryTimeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/Controllers/stockController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Controllers/stockController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/DataAccess/StockData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/DataAccess/StockData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/HelperClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/HelperClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/Collection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/Collection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/CurrentInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/CurrentInventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/InventoryContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/InventoryContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/ProductComment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/ProductComment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/ProductDescription.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/ProductDescription.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/Stock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/Stock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/Warehouse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/Warehouse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/WarehouseClerk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/WarehouseClerk.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/WarehouseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/WarehouseManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/InventoryAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/InventoryAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/bin/Debug/netcoreapp3.1/InventoryAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/bin/Debug/netcoreapp3.1/InventoryAPI.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/bin/Debug/netcoreapp3.1/InventoryAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/bin/Debug/netcoreapp3.1/InventoryAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/InventoryAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/InventoryAPI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/InventoryAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/InventoryAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlScripts/Inventory.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SqlScripts/Inventory.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlScripts/Orders.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SqlScripts/Orders.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlScripts/customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SqlScripts/customers.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/Controllers/Routes_Notes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/Data/Entities/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/WebStoreApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/WebStoreApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/Antlr3.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/Microsoft.Web.Infrastructure.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Helpers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Helpers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Optimization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Optimization.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Razor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.Deployment.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.Deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.Razor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/WebGrease.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/WebStoreApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/obj/Debug/WebStoreApp.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/obj/Debug/WebStoreApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/obj/Debug/WebStoreApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/obj/Debug/WebStoreApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webStore.http" beforeDir="false" afterPath="$PROJECT_DIR$/webStore.http" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lkj2nelqQumJxfC68AYfyxWE90" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffe292ab-7a79-4d1e-a941-c6a6547cb486" name="Default Changelist" comment="" />
+      <created>1608147781161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608147781161</updated>
+      <workItem from="1608147784209" duration="293000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

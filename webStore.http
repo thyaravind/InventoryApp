@@ -1,9 +1,18 @@
 //GET https://reqres.in/api/users
 
-GET https://localhost:26797/api/stock/4
+
+
+
+POST https://localhost:7659/esb/test {"text":"name"}
+
+
+//GET https://localhost:26797/api/stock/4
 
 //POST https://localhost:5001/api/questions {"text":"name"}
 
 //OPTIONS https://localhost:5001/api/questions
 
 //HEAD https://localhost:5001/api/questions
+
+
+

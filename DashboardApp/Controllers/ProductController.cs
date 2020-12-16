@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using DashboardApp.DataAccess;
+using InventoryApp.Models;
 
 namespace DashboardApp.Controllers
 {
@@ -62,5 +65,17 @@ namespace DashboardApp.Controllers
                 return View ();
             }
         }
+
+
+        [Route("~/orde/{warehouseID}")]
+        public async Task<ActionResult> Order3Async(int warehouseID)
+        {
+            OrdersList ordersListRetrieved = await GetOrders.GetOrdersList(warehouseID);
+
+            var output = ordersListRetrieved.Orders;
+
+            return View(output);
+        }
+
     }
 }

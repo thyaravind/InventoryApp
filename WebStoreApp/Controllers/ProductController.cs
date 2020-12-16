@@ -4,25 +4,43 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Ajax;
+using System.Web.Routing;
+using InventoryApp.Data;
 using InventoryApp.Models;
 
 namespace InventoryApp.Controllers
 
 {   [RoutePrefix("product")]
     //[Route({"action=index"})]
-    public class ProductController : Controller
+    public partial class ProductController : Controller
     {
 
-        //route using route table
+
         
         public ActionResult Index()
         {
+            
             var product = new Product {ProductName = "test test",Price = 50};
             ViewBag.Product = product;
             return View();
         }
 
-        //route using route attributes
+
+        [Route("collection/{collectionID}")]
+        public ActionResult GetCollection(int collectionID)
+        {
+            Collection collection = null;
+            using (var cnx = new WebStoreDbContext())
+            {
+                //collection = cnx.Collections.FirstOrDefault(c => c.CollectionID == collectionID)
+                ViewBag.CollectionID = collectionID;
+
+            }
+
+            return View("collection");
+        }
+
+
 
         [Route("~/Collections")]
         public ActionResult Collections()

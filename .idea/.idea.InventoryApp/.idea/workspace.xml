@@ -30,7 +30,117 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc0e0aa-d45f-45c3-b5f2-83211afc0d9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InventoryApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InventoryApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/App_Start/BundleConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/App_Start/BundleConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/App_Start/RouteConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/App_Start/RouteConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Content/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Controllers/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Controllers/OrderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/DashboardApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/DashboardApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Global.asax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Global.asax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.intellisense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery-3.3.1.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery.validate-vsdoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Scripts/modernizr-2.8.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Views/Home/IndexTemplate.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Views/Product/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Views/Product/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardApp/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardApp/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/Controllers/ESBController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/Controllers/ESBController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/EnterpriseESB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/EnterpriseESB.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/Debug/netcoreapp3.1/EnterpriseESB.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/Debug/netcoreapp3.1/EnterpriseESB.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/Debug/netcoreapp3.1/EnterpriseESB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/Debug/netcoreapp3.1/EnterpriseESB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/EnterpriseESB.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/EnterpriseESB.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/EnterpriseESB.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/EnterpriseESB.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnterpriseESB/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EnterpriseESB/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/Controllers/DeliveryTimeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Controllers/DeliveryTimeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/Controllers/stockController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Controllers/stockController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/DataAccess/StockData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/DataAccess/StockData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/HelperClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/HelperClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/Collection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/Collection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/CurrentInventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/CurrentInventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/InventoryContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/InventoryContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/ProductComment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/ProductComment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/ProductDescription.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/ProductDescription.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/Stock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/Stock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/Warehouse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/Warehouse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/WarehouseClerk.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/WarehouseClerk.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/DataAccess/Models/WarehouseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Data/Entities/WarehouseManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/InventoryAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/InventoryAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/bin/Debug/netcoreapp3.1/InventoryAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/bin/Debug/netcoreapp3.1/InventoryAPI.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/bin/Debug/netcoreapp3.1/InventoryAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/bin/Debug/netcoreapp3.1/InventoryAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/InventoryAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/InventoryAPI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/InventoryAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/Debug/netcoreapp3.1/InventoryAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/InventoryAPI.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InventoryAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/InventoryAPI/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlScripts/Inventory.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SqlScripts/Inventory.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlScripts/Orders.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SqlScripts/Orders.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SqlScripts/customers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SqlScripts/customers.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/Controllers/Routes_Notes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/Data/Entities/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/WebStoreApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/WebStoreApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/Antlr3.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/Microsoft.Web.Infrastructure.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Helpers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Helpers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Optimization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Optimization.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.Razor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.Deployment.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.Deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.Razor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.Razor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/System.Web.WebPages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/WebGrease.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/bin/WebStoreApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/obj/Debug/WebStoreApp.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/obj/Debug/WebStoreApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/obj/Debug/WebStoreApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/obj/Debug/WebStoreApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebStoreApp/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/WebStoreApp/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webStore.http" beforeDir="false" afterPath="$PROJECT_DIR$/webStore.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +151,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -53,62 +165,73 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/WebStoreApp/Controllers/ProductController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E44D5B5A-41A8-4B08-B652-EB0ACC9ED4B6/189/TaskContinuation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/8d/10f4070e/AsyncControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InventoryAPI/Data/DataObjects/UPSResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/mvccontribgallery/Orange/DesignTemplateCS/Views/Shared/Site.Master" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E44D5B5A-41A8-4B08-B652-EB0ACC9ED4B6/187/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DashboardApp/Views/Shared/_Layout - Copy.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebStoreApp/Controllers/Routes_Notes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E44D5B5A-41A8-4B08-B652-EB0ACC9ED4B6/186/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebStoreApp/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebStoreApp/App_Start/BundleConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InventoryAPI/Data/Entities/InventoryContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E44D5B5A-41A8-4B08-B652-EB0ACC9ED4B6/155/executioncontext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/250f2279-94de-48be-8740-3d64a5578924/console_2.sql" />
-        <option value="$PROJECT_DIR$/InventoryAPI/DataAcess/DataAccess/StockDataAccessClass.cs" />
-        <option value="$PROJECT_DIR$/InventoryAPI/DataAccess/DataAccess/StockDataAccessClass.cs" />
-        <option value="$PROJECT_DIR$/SqlScripts/products.sql" />
-        <option value="$PROJECT_DIR$/InventoryAPI/Controllers/stockController.cs" />
-        <option value="$PROJECT_DIR$/webStore.http" />
-        <option value="$PROJECT_DIR$/SqlScripts/Insertions.sql" />
-        <option value="$PROJECT_DIR$/SqlScripts/GetStock.sql" />
-        <option value="$PROJECT_DIR$/SqlScripts/warehouses.sql" />
-        <option value="$PROJECT_DIR$/InventoryAPI/DataAccess/DataAccess/StockData.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Controllers/CollectionController.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Controllers/ProductsController.cs" />
-        <option value="$PROJECT_DIR$/InventoryWebApp/Content/Site.css" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Controllers/Login.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/App_Start/BundleConfig.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/packages.config" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Global.asax.cs" />
-        <option value="$PROJECT_DIR$/InventoryApp.Tests/Views/Collection/Index.cshtml" />
-        <option value="$PROJECT_DIR$/InventoryApp.Tests/Views/Account/Index.cshtml" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Views/Web.config" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Views/Account/Index.cshtml" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Filters/CustomActionFilter.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Filters/CrawlBlocker.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/App_Start/FilterConfig.cs" />
-        <option value="$PROJECT_DIR$/InventoryApp.Tests/Views/Account/CustomException.cshtml" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Filters/CustomExceptionHandler.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Controllers/AccountController.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Views/Shared/500.html" />
-        <option value="$PROJECT_DIR$/InventoryAPI/Controllers/deliveryTimeController.cs" />
-        <option value="$PROJECT_DIR$/InventoryAPI/Controllers/DeliveryTimeController.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Models/ProductClass.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Views/Products/Index.cshtml" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Web.config" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Views/Shared/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Models/Product.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Views/Login/Index.cshtml" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Models/LoginObj.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Controllers/LoginController.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Views/Login/Login.cshtml" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Controllers/ProductController.cs" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Views/Product/Product.cshtml" />
-        <option value="$PROJECT_DIR$/WebStoreApp/Views/Product/Index.cshtml" />
-        <option value="$PROJECT_DIR$/EnterpriseESB/Contracts/Orders/OrderRequest.cs" />
         <option value="$PROJECT_DIR$/EnterpriseESB/Contracts/Orders/CreateOrderRequest.cs" />
         <option value="$PROJECT_DIR$/EnterpriseESB/Contracts/Message.cs" />
         <option value="$PROJECT_DIR$/EnterpriseESB/Controllers/ESBController.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/InventoryAPI/DataAccess/HelperClass.cs" />
+        <option value="$PROJECT_DIR$/WebStoreApp/Views/Shared/_nav.cshtml" />
+        <option value="$PROJECT_DIR$/WebStoreApp/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/WebStoreApp/Models/Collection.cs" />
+        <option value="$PROJECT_DIR$/WebStoreApp/Models/User.cs" />
+        <option value="$PROJECT_DIR$/WebStoreApp/Data/WebStoreDbContext.cs" />
+        <option value="$PROJECT_DIR$/WebStoreApp/Models/Product.cs" />
+        <option value="$PROJECT_DIR$/WebStoreApp/Web.config" />
+        <option value="$PROJECT_DIR$/WebStoreApp/Controllers/Routes_Notes.cs" />
+        <option value="$PROJECT_DIR$/WebStoreApp/Controllers/ProductController.cs" />
+        <option value="$PROJECT_DIR$/WebStoreApp/Views/Product/Collection.cshtml" />
+        <option value="$PROJECT_DIR$/DashboardApp/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/DashboardApp/Models/Order.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/Entities/Order.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/Entities/Product.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Controllers/stockController.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/HelperClass.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/Entities/Orders.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/Entities/InventoryContext.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/Entities/OrdersList.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Controllers/orderController.cs" />
+        <option value="$PROJECT_DIR$/DashboardApp/Controllers/ApiHelper.cs" />
+        <option value="$PROJECT_DIR$/DashboardApp/Global.asax.cs" />
+        <option value="$PROJECT_DIR$/DashboardApp/Views/Order/orders.cshtml" />
+        <option value="$PROJECT_DIR$/DashboardApp/Views/Order/Orders2.cshtml" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/DataAccess/StockData.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/DataAccess/DeliveryTime.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/DataAccess/UPS.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/DataObjects/UPSResponse.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Controllers/ApiHelper.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/ExternalDataAccess/UPS.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/DataObjects/UPSRequest.cs" />
+        <option value="$PROJECT_DIR$/InventoryAPI/Data/DataObjects/UpsResponseObj.cs" />
+        <option value="$PROJECT_DIR$/DashboardApp/Models/Orders.cs" />
+        <option value="$PROJECT_DIR$/DashboardApp/Models/OrdersList.cs" />
+        <option value="$PROJECT_DIR$/DashboardApp/DataAccess/HelperClass.cs" />
+        <option value="$PROJECT_DIR$/DashboardApp/DataAccess/GetOrders.cs" />
+        <option value="$PROJECT_DIR$/DashboardApp/Controllers/OrderController.cs" />
+        <option value="$PROJECT_DIR$/DashboardApp/Views/Order/Index.cshtml" />
+        <option value="$PROJECT_DIR$/DashboardApp/Content/sidebar.css" />
+        <option value="$PROJECT_DIR$/DashboardApp/Content/kmlpandey_Styles.css" />
+        <option value="$PROJECT_DIR$/DashboardApp/Scripts/custom_kmlpandey.js" />
+        <option value="$PROJECT_DIR$/DashboardApp/App_Start/RouteConfig.cs" />
+        <option value="$PROJECT_DIR$/DashboardApp/Content/Site.css" />
+        <option value="$PROJECT_DIR$/DashboardApp/App_Start/BundleConfig.cs" />
+        <option value="$PROJECT_DIR$/DashboardApp/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/DashboardApp/Content/custom.css" />
       </list>
     </option>
   </component>
@@ -123,11 +246,12 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlserver" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34986225" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29972452" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35029778" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29994586" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -159,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.EnterpriseESB">
+  <component name="RunManager" selected=".NET Project.DashboardApp">
     <configuration name="DashboardApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -292,12 +416,12 @@
     <list>
       <item itemvalue=".NET Launch Settings Profile.InventoryAPI" />
       <item itemvalue=".NET Launch Settings Profile.InventoryAPI: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.EnterpriseESB: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.EnterpriseESB" />
       <item itemvalue=".NET Project.DashboardApp" />
       <item itemvalue=".NET Project.InventoryWebApp" />
       <item itemvalue=".NET Project.WebStoreApp" />
       <item itemvalue="HTTP Request.webStore#1" />
-      <item itemvalue=".NET Launch Settings Profile.EnterpriseESB: IIS Express" />
-      <item itemvalue=".NET Launch Settings Profile.EnterpriseESB" />
     </list>
     <recent_temporary>
       <list>
@@ -326,6 +450,15 @@
       <workItem from="1607733271192" duration="290000" />
       <workItem from="1607823144599" duration="434000" />
       <workItem from="1607895723750" duration="3522000" />
+      <workItem from="1607939382903" duration="4034000" />
+      <workItem from="1607943586431" duration="42000" />
+      <workItem from="1607955645148" duration="129000" />
+      <workItem from="1608028699425" duration="862000" />
+      <workItem from="1608041307803" duration="6756000" />
+      <workItem from="1608064631975" duration="4934000" />
+      <workItem from="1608078056277" duration="2348000" />
+      <workItem from="1608138291458" duration="8522000" />
+      <workItem from="1608152709799" duration="425000" />
     </task>
     <servers />
   </component>
@@ -372,90 +505,122 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1232" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607628770242" />
-    <state width="1878" height="230" key="GridCell.Tab.0.bottom" timestamp="1607901047368">
+    <state width="1878" height="382" key="GridCell.Tab.0.bottom" timestamp="1608147995526">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="237" key="GridCell.Tab.0.bottom/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607728214597" />
-    <state width="1878" height="230" key="GridCell.Tab.0.bottom/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607901047368" />
-    <state width="1878" height="230" key="GridCell.Tab.0.center" timestamp="1607901047367">
+    <state width="1878" height="382" key="GridCell.Tab.0.bottom/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995526" />
+    <state width="1638" height="221" key="GridCell.Tab.0.bottom/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608143469340" />
+    <state width="1878" height="382" key="GridCell.Tab.0.center" timestamp="1608147995525">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="237" key="GridCell.Tab.0.center/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607728214595" />
-    <state width="1878" height="230" key="GridCell.Tab.0.center/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607901047367" />
-    <state width="1878" height="230" key="GridCell.Tab.0.left" timestamp="1607901047364">
+    <state width="1878" height="382" key="GridCell.Tab.0.center/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995525" />
+    <state width="1638" height="221" key="GridCell.Tab.0.center/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608143469339" />
+    <state width="1878" height="382" key="GridCell.Tab.0.left" timestamp="1608147995525">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="237" key="GridCell.Tab.0.left/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607728214595" />
-    <state width="1878" height="230" key="GridCell.Tab.0.left/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607901047364" />
-    <state width="1878" height="230" key="GridCell.Tab.0.right" timestamp="1607901047367">
+    <state width="1878" height="382" key="GridCell.Tab.0.left/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995525" />
+    <state width="1638" height="221" key="GridCell.Tab.0.left/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608143469339" />
+    <state width="1878" height="382" key="GridCell.Tab.0.right" timestamp="1608147995526">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="237" key="GridCell.Tab.0.right/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607728214596" />
-    <state width="1878" height="230" key="GridCell.Tab.0.right/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1607901047367" />
-    <state width="1846" height="392" key="GridCell.Tab.1.bottom" timestamp="1607698054122">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.0.right/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995526" />
+    <state width="1638" height="221" key="GridCell.Tab.0.right/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608143469340" />
+    <state width="1878" height="382" key="GridCell.Tab.1.bottom" timestamp="1608147995528">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.1.bottom/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054122" />
-    <state width="1846" height="392" key="GridCell.Tab.1.center" timestamp="1607698054121">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.1.bottom/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995528" />
+    <state width="1638" height="371" key="GridCell.Tab.1.bottom/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875942" />
+    <state width="1878" height="382" key="GridCell.Tab.1.center" timestamp="1608147995527">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.1.center/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054121" />
-    <state width="1846" height="392" key="GridCell.Tab.1.left" timestamp="1607698054121">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.1.center/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995527" />
+    <state width="1638" height="371" key="GridCell.Tab.1.center/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875940" />
+    <state width="1878" height="382" key="GridCell.Tab.1.left" timestamp="1608147995526">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.1.left/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054121" />
-    <state width="1846" height="392" key="GridCell.Tab.1.right" timestamp="1607698054122">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.1.left/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995526" />
+    <state width="1638" height="371" key="GridCell.Tab.1.left/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875940" />
+    <state width="1878" height="382" key="GridCell.Tab.1.right" timestamp="1608147995527">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.1.right/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054122" />
-    <state width="1846" height="392" key="GridCell.Tab.2.bottom" timestamp="1607698054124">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.1.right/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995527" />
+    <state width="1638" height="371" key="GridCell.Tab.1.right/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875941" />
+    <state width="1878" height="382" key="GridCell.Tab.2.bottom" timestamp="1608147995529">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.2.bottom/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054124" />
-    <state width="1846" height="392" key="GridCell.Tab.2.center" timestamp="1607698054123">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.2.bottom/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995529" />
+    <state width="1638" height="371" key="GridCell.Tab.2.bottom/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875945" />
+    <state width="1878" height="382" key="GridCell.Tab.2.center" timestamp="1608147995528">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.2.center/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054123" />
-    <state width="1846" height="392" key="GridCell.Tab.2.left" timestamp="1607698054122">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.2.center/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995528" />
+    <state width="1638" height="371" key="GridCell.Tab.2.center/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875943" />
+    <state width="1878" height="382" key="GridCell.Tab.2.left" timestamp="1608147995528">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.2.left/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054122" />
-    <state width="1846" height="392" key="GridCell.Tab.2.right" timestamp="1607698054123">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.2.left/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995528" />
+    <state width="1638" height="371" key="GridCell.Tab.2.left/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875942" />
+    <state width="1878" height="382" key="GridCell.Tab.2.right" timestamp="1608147995529">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.2.right/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054123" />
-    <state width="1846" height="392" key="GridCell.Tab.3.bottom" timestamp="1607698054125">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.2.right/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995529" />
+    <state width="1638" height="371" key="GridCell.Tab.2.right/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875944" />
+    <state width="1878" height="382" key="GridCell.Tab.3.bottom" timestamp="1608147995531">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.3.bottom/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054125" />
-    <state width="1846" height="392" key="GridCell.Tab.3.center" timestamp="1607698054124">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.3.bottom/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995531" />
+    <state width="1638" height="371" key="GridCell.Tab.3.bottom/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875948" />
+    <state width="1878" height="382" key="GridCell.Tab.3.center" timestamp="1608147995530">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.3.center/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054124" />
-    <state width="1846" height="392" key="GridCell.Tab.3.left" timestamp="1607698054124">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.3.center/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995530" />
+    <state width="1638" height="371" key="GridCell.Tab.3.center/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875946" />
+    <state width="1878" height="382" key="GridCell.Tab.3.left" timestamp="1608147995530">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.3.left/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054124" />
-    <state width="1846" height="392" key="GridCell.Tab.3.right" timestamp="1607698054125">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.3.left/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995530" />
+    <state width="1638" height="371" key="GridCell.Tab.3.left/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875945" />
+    <state width="1878" height="382" key="GridCell.Tab.3.right" timestamp="1608147995530">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1846" height="392" key="GridCell.Tab.3.right/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607698054125" />
-    <state width="1878" height="394" key="GridCell.Tab.4.bottom" timestamp="1607645082108">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="382" key="GridCell.Tab.3.right/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608147995530" />
+    <state width="1638" height="371" key="GridCell.Tab.3.right/1920.23.1680.1027/0.23.1920.1057@1920.23.1680.1027" timestamp="1608139875947" />
+    <state width="1845" height="382" key="GridCell.Tab.4.bottom" timestamp="1608050862740">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="394" key="GridCell.Tab.4.bottom/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607645082108" />
-    <state width="1878" height="394" key="GridCell.Tab.4.center" timestamp="1607645082107">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1845" height="382" key="GridCell.Tab.4.bottom/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608050862740" />
+    <state width="1845" height="382" key="GridCell.Tab.4.center" timestamp="1608050862739">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="394" key="GridCell.Tab.4.center/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607645082107" />
-    <state width="1878" height="394" key="GridCell.Tab.4.left" timestamp="1607645082107">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1845" height="382" key="GridCell.Tab.4.center/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608050862739" />
+    <state width="1845" height="382" key="GridCell.Tab.4.left" timestamp="1608050862739">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="394" key="GridCell.Tab.4.left/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607645082107" />
-    <state width="1878" height="394" key="GridCell.Tab.4.right" timestamp="1607645082108">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1845" height="382" key="GridCell.Tab.4.left/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608050862739" />
+    <state width="1845" height="382" key="GridCell.Tab.4.right" timestamp="1608050862739">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="394" key="GridCell.Tab.4.right/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607645082108" />
+    <state width="1845" height="382" key="GridCell.Tab.4.right/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608050862739" />
     <state width="221" height="455" key="HiddenNamespacesPopup" timestamp="1607628427822">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -469,30 +634,67 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1451" y="179" key="SettingsEditor/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607625726001" />
+    <state width="960" height="528" key="XDebugger.FullValuePopup" timestamp="1608068991544">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="960" height="528" key="XDebugger.FullValuePopup/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608068991544" />
     <state x="-1118" y="413" width="323" height="253" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1607631639572">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1118" y="413" width="323" height="253" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607631639572" />
-    <state x="-1297" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1607720074044">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state x="623" y="257" width="672" height="664" key="search.everywhere.popup" timestamp="1608064832925">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="-1297" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1607720074044" />
+    <state x="623" y="257" width="672" height="664" key="search.everywhere.popup/1920.23.1680.1027/0.23.1920.1057@0.23.1920.1057" timestamp="1608064832925" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/InventoryAPI/DataAccess/DataAccess/StockData.cs</url>
+          <url>file://$PROJECT_DIR$/InventoryAPI/Data/DataAccess/StockData.cs</url>
           <line>33</line>
-          <properties documentPath="$PROJECT_DIR$/InventoryAPI/DataAccess/DataAccess/StockData.cs" initialLine="33">
+          <properties documentPath="$PROJECT_DIR$/InventoryAPI/DataAccess/DataAccess/StockData.cs" initialLine="33" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/InventoryAPI/Controllers/orderController.cs</url>
+          <line>42</line>
+          <properties documentPath="$PROJECT_DIR$/InventoryAPI/Controllers/orderController.cs" initialLine="42">
             <startOffsets>
-              <option value="897" />
+              <option value="1087" />
             </startOffsets>
             <endOffsets>
-              <option value="916" />
+              <option value="1180" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DashboardApp/Controllers/OrderController.cs</url>
+          <line>23</line>
+          <properties documentPath="$PROJECT_DIR$/DashboardApp/Controllers/OrderController.cs" initialLine="23">
+            <startOffsets>
+              <option value="520" />
+            </startOffsets>
+            <endOffsets>
+              <option value="591" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DashboardApp/Controllers/OrderController.cs</url>
+          <line>27</line>
+          <properties documentPath="$PROJECT_DIR$/DashboardApp/Controllers/OrderController.cs" initialLine="27">
+            <startOffsets>
+              <option value="659" />
+            </startOffsets>
+            <endOffsets>
+              <option value="703" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

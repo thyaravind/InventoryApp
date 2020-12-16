@@ -1,0 +1,45 @@
+{
+    "Security": {
+        "UsernameToken": {
+            "Username": "AravindSamala",
+            "Password": "hakunaMATATA02@"
+        },
+        "UPSServiceAccessToken": {
+            "AccessLicenseNumber": "2D8F460B702D02D5"
+        }
+    },
+    "TimeInTransitRequest": {
+        "Request": {
+            "RequestOption": "TNT",
+            "TransactionReference": {
+                "CustomerContext": "",
+                "TransactionIdentifier": ""
+            }
+        },
+        "ShipFrom": {
+            "Address": {
+                "StateProvinceCode": "MA",
+                "CountryCode": "US",
+                "PostalCode": "02740"
+            }
+        },
+        "ShipTo": {
+            "Address": {
+                "StateProvinceCode": "AZ",
+                "CountryCode": "US",
+                "PostalCode": "85281"
+            }
+        },
+        "Pickup": {
+            "Date": "20201222"
+        },
+        "ShipmentWeight": {
+            "UnitOfMeasurement": {
+                "Code": "KGS",
+                "Description": "Description"
+            },
+            "Weight": "20"
+        },
+        "MaximumListSize": "2"
+    }
+}

@@ -8,7 +8,6 @@ using EnterpriseESB.Contracts.Orders;
 using Microsoft.AspNetCore.Mvc;
 using RestSharp;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace EnterpriseESB.Controllers
 {
@@ -20,10 +19,11 @@ namespace EnterpriseESB.Controllers
 
         [HttpPost]
         [Route("{*url}")]
-        public Message Post(string url, Message message)
+        public Message Post(string url,[FromBody] string a)
         {
-            var dataText = ((JsonElement)message.Data).GetRawText();
-            
+            //var dataText = ((JsonElement)message.Data).GetRawText();
+            var dataText = a;
+           
             switch (url)
             {
                 case "orders":
@@ -52,6 +52,13 @@ namespace EnterpriseESB.Controllers
                         };
                     }
                 case "create_order":
+                    {
+                        var order = JsonSerializer.Deserialize<CreateOrderRequest>(dataText);
+                        SendRequest("https://localhost:6001/", "orders", order);
+                        return new Message();
+                    }
+
+                case "test":
                     {
                         var order = JsonSerializer.Deserialize<CreateOrderRequest>(dataText);
                         SendRequest("https://localhost:6001/", "orders", order);

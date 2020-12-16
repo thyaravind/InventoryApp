@@ -1,6 +1,5 @@
 /Users/aravind/Projects/InventoryApp/EnterpriseESB/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/aravind/Projects/InventoryApp/EnterpriseESB/bin/Debug/netcoreapp3.1/appsettings.json
-/Users/aravind/Projects/InventoryApp/EnterpriseESB/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /Users/aravind/Projects/InventoryApp/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.deps.json
 /Users/aravind/Projects/InventoryApp/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.runtimeconfig.json
 /Users/aravind/Projects/InventoryApp/EnterpriseESB/bin/Debug/netcoreapp3.1/EnterpriseESB.runtimeconfig.dev.json
@@ -19,3 +18,4 @@
 /Users/aravind/Projects/InventoryApp/EnterpriseESB/obj/Debug/netcoreapp3.1/EnterpriseESB.dll
 /Users/aravind/Projects/InventoryApp/EnterpriseESB/obj/Debug/netcoreapp3.1/EnterpriseESB.pdb
 /Users/aravind/Projects/InventoryApp/EnterpriseESB/obj/Debug/netcoreapp3.1/EnterpriseESB.genruntimeconfig.cache
+/Users/aravind/Projects/InventoryApp/EnterpriseESB/obj/Debug/netcoreapp3.1/scopedcss/bundle/EnterpriseESB.styles.css

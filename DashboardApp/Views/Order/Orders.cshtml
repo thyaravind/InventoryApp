@@ -1,0 +1,29 @@
+﻿@using InventoryApp.Models
+@model List<Order>
+
+
+@{
+    Layout = "/Views/shared/_Layout.cshtml";
+}
+
+
+<html>
+<head>
+    <title></title>
+</head>
+
+
+
+<body>
+@{
+         foreach (var order in Model)
+         {
+             
+             <div>order.OrderId  </div>
+             <div>order.Street  </div>
+             <div>order.Country  </div>
+             <div>order.ZipCode  </div>
+             
+         }}
+</body>
+</html>

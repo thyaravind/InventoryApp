@@ -65,7 +65,7 @@ Alter table accounts.ordersDetails
 add constraint FK_Order_Details Foreign key (orderID) REFERENCES accounts.orders(orderID)
 
 Alter table accounts.orders
-add constraint FK_Order_Payment Foreign key (orderID) REFERENCES accounts.orderPayments(paymentID)
+add constraint FK_Order_Payment Foreign key (paymentID) REFERENCES accounts.orderPayments(paymentID)
 
 Alter table accounts.orders
 add constraint FK_Order_DeliveryType Foreign key (delivery_typeID) REFERENCES inventory.deliveryTypes(delivery_typeID)
@@ -83,3 +83,18 @@ Alter table accounts.ordersDetails
 add constraint FK_Order_Product Foreign key (SKU) REFERENCES inventory.products(SKU)
 
 ---todo when an order is made - CRM Service, Inventory and Account Service
+
+select * from accounts.paymentTypes
+select * from accounts.orderPayments
+
+---Insertions
+insert into accounts.paymentTypes
+values ('CCAvenue','CC','ccavenue@cc.com','987654321')
+
+insert into accounts.orderPayments
+values (1,'1023 E University','1023 E University','1023 E University','AZ','US',85281,420)
+
+
+
+insert into accounts.orders
+(customerID,paymentID,delivery_typeID,delivery_partnerID,number_of_products,street,address_1ine_2,address_line_3,state,country,zip) values (1,1,1,1,2,'1023 E University','1023 E University','1023 E University','AZ','US',85281)

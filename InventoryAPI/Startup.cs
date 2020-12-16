@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using InventoryAPI.Controllers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -18,6 +19,7 @@ namespace InventoryAPI
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            ApiHelper.InitializeClient();
         }
 
         public IConfiguration Configuration { get; }

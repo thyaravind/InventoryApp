@@ -17,10 +17,5 @@ namespace InventoryApp.Models
             this.Collection = "test collection";
         }
 
-
-        /*public IEnumerator GetEnumerator()
-        {
-            throw new System.NotImplementedException();
-        }*/
     }
 }

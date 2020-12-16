@@ -6,12 +6,20 @@
 
 
   <ItemGroup>
-    <Folder Include="DataAccess\" />
-    <Folder Include="DataAccess\DataAccess\" />
-    <Folder Include="DataAccess\Models\" />
+    <Folder Include="Data\" />
+    <Folder Include="Data\DataAccess\" />
+    <Folder Include="Data\Entities\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Data\Entities\InventoryContext.cs" />
+    <Compile Remove="Data\DataObjects\UPSResponse.cs" />
   </ItemGroup>
 </Project>

@@ -26,4 +26,9 @@ end
 
 
 
+---Insertions
+
+insert into crm.customers
+(first_name,street,state,country,zip,email) values ('Aravind','7009 Laurel Ct','NJ','US','02740','aravind@gmail.com')
+
 
