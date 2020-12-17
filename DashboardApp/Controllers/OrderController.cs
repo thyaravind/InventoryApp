@@ -10,7 +10,15 @@ using InventoryApp.Models;
 
 namespace DashboardApp.Controllers
 {
+    [RoutePrefix("Order")]
     public class OrderController : Controller
+
+
+
+
+
+
+
     {
         public ActionResult Index()
         {
@@ -28,14 +36,23 @@ namespace DashboardApp.Controllers
             return View ("~/Views/Order/Orders.cshtml");
         }
 
-        [Route("~/ordersByWarehouse/{id}")]
+        [Route("OrdersByWarehouse/{id}")]
         public ActionResult OrdersByWarehouse(int id)
         {
             OrdersList ordersListRetrieved = GetOrders.GetOrdersList3(id);
 
             var output = ordersListRetrieved.Orders;
 
-            return View ("Index",model:output);
+            return View ("Orders",model:output);
+        }
+
+
+        [HttpPost]
+        public ActionResult RederDetail(string OrderId)
+        {
+            Order CurrentOrder = GetOrders.GetCurrentOrder(int.Parse(OrderId));
+
+            return PartialView("_DetailChamber", CurrentOrder);
         }
         
     }

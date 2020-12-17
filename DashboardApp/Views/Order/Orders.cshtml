@@ -4,26 +4,78 @@
 
 @{
     Layout = "/Views/shared/_Layout.cshtml";
+    AjaxOptions ajaxoptions = new AjaxOptions
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "DetailChamber"
+
+    };
 }
 
 
-<html>
-<head>
-    <title></title>
-</head>
+
+
+@section Chamber
+{
+
+
+    @using (Ajax.BeginForm("RenderDetail", "Order",ajaxoptions,new { id = "UpdateForm" }))
+    {
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">OrderId</th>
+                    <th scope="col">Street</th>
+                    <th scope="col">Country</th>
+                    <th scope="col">ZipCode</th>
+                </tr>
+            </thead>
+            <tbody>
 
 
 
-<body>
-@{
-         foreach (var order in Model)
-         {
-             
-             <div>order.OrderId  </div>
-             <div>order.Street  </div>
-             <div>order.Country  </div>
-             <div>order.ZipCode  </div>
-             
-         }}
-</body>
-</html>
+                @foreach (var order in Model)
+                {
+
+                    <tr>
+                        <th scope="row"><a>@Html.Label(@order.OrderId,new { onclick = "$('#UpdateForm').trigger('submit')"})</a></th>
+                        <td>@order.Street</td>
+                        <td>@order.Country</td>
+                        <td>@order.ZipCode</td>
+                    </tr>
+
+                }
+
+
+            </tbody>
+        </table>
+
+    }
+
+
+}
+
+@section DetailChamber
+{
+
+    <div class="card" id="DetailChamber">
+        <div class="card-body">
+
+            @foreach (var order in Model)
+            {
+
+                @Html.Partial("_DetailChamber", order)
+
+            }
+            </div>
+    </div>
+
+
+
+
+
+}
+
+

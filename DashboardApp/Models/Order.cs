@@ -13,5 +13,9 @@ namespace InventoryApp.Models
         public string State { get; set; }
         public string Country { get; set; }
         public string ZipCode { get; set; }
+        public string CustomerName { get; set; }
+        public string CustomerEmail { get; set; }
+        public string DeliveryType { get; set; }
+        public string DeliveryPartner { get; set; }
     }
 }

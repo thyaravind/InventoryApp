@@ -12,7 +12,7 @@ create table accounts.orders
     address_line_3     varchar(250),
     state              varchar(25)  NOT NULL,
     country            CHAR(2)      NOT NULL,
-    zip                varchar(15)  NOT NULL,
+    zip_code                varchar(15)  NOT NULL,
     paymentID int not null,
     delivery_typeID tinyint default 1,
     delivery_partnerID tinyint default 1,
@@ -97,4 +97,9 @@ values (1,'1023 E University','1023 E University','1023 E University','AZ','US',
 
 
 insert into accounts.orders
-(customerID,paymentID,delivery_typeID,delivery_partnerID,number_of_products,street,address_1ine_2,address_line_3,state,country,zip) values (1,1,1,1,2,'1023 E University','1023 E University','1023 E University','AZ','US',85281)
+(customerID,paymentID,delivery_typeID,delivery_partnerID,number_of_products,street,address_1ine_2,address_line_3,state,country,zip) values (1,1,1,1,2,'1023 E University','1023 E University','1023 E University','AZ','US','85281')
+
+insert into accounts.orders
+(customerID,paymentID,delivery_typeID,delivery_partnerID,number_of_products,street,address_1ine_2,address_line_3,state,country,zip) values (1,1,1,1,2,'7009 County St','7009 County St','7009 County St','MA','US','02740')
+
+EXEC sp_rename 'accounts.orders.zip', 'zip_code', 'COLUMN';

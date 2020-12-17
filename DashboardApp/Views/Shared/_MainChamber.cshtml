@@ -1,0 +1,23 @@
+@{
+    Layout = "/Views/shared/_Layout.cshtml";
+}
+
+<div id="list_chamber" class="col-6">
+                
+@RenderSection("Chamber",required:true)
+
+    <p>This is written in MainChamber</p>
+
+
+
+
+</div>
+
+            
+
+<div id="detail_chamber" class="col-4">
+
+    @RenderSection("DetailChamber", required: true)
+
+</div>
+

@@ -49,7 +49,34 @@ namespace DashboardApp.DataAccess
             return null;
 
         }
-        
+
+        internal static Order GetCurrentOrder(int orderID)
+        {
+            var ordersList = new OrdersList();
+
+            try
+            {
+                // Build connection string
+                var helper = new HelperClass();
+                Console.Write("Connecting to SQL Server ... ");
+                using (SqlConnection connection = new SqlConnection(helper.Builder.ConnectionString))
+                {
+                    connection.Open();
+                    var CurrentOrder = connection.Query<Order>("exec accounts.spGetCurrentOrder @OrderID", new { OrderID = orderID });
+                    return (Order)CurrentOrder;
+                }
+            }
+            catch (SqlException e)
+            {
+                ordersList.status = e.ToString();
+            }
+
+
+            return null;
+
+        }
+
+
         public static  OrdersList GetOrdersList3(int id)
         {
             var ordersList = new OrdersList();    
