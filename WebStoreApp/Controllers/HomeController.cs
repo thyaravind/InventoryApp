@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Ajax;
 
-namespace InventoryApp.Controllers
+namespace DashboardApp.Controllers
 {
     public class HomeController : Controller
     {

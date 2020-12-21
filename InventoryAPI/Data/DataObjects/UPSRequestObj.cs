@@ -3,10 +3,10 @@ using System.Net.Http;
 
 namespace InventoryAPI.Data.Entities
 {
-    public class UPSRequest
+    public class UPSRequestObj
 
     {
-        public static implicit operator HttpContent(UPSRequest v)
+        public static implicit operator HttpContent(UPSRequestObj v)
         {
             throw new NotImplementedException();
         }
@@ -92,7 +92,7 @@ namespace InventoryAPI.Data.Entities
             public string MaximumListSize { get; set; }
         }
 
-        public class Root
+        public class UpsRequest
         {
             public Security Security { get; set; }
             public TimeInTransitRequest TimeInTransitRequest { get; set; }

@@ -1,6 +1,6 @@
 using System.Web.Optimization;
 
-namespace InventoryApp
+namespace DashboardApp
 {
     public class BundleConfig
     {

@@ -1,7 +1,7 @@
 using System.Data.Entity;
-using InventoryApp.Models;
+using DashboardApp.Models;
 
-namespace InventoryApp.Data
+namespace DashboardApp.Data
 {
     public class WebStoreDbContext : DbContext
     {

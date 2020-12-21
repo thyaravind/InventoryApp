@@ -2,7 +2,7 @@ using System.Diagnostics;
 using System.Web.Mvc;
 using Newtonsoft.Json;
 
-namespace InventoryApp.Filters
+namespace DashboardApp.Filters
 {
     public class CustomActionFilter: ActionFilterAttribute
     {

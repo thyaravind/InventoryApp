@@ -31,4 +31,8 @@ end
 insert into crm.customers
 (first_name,street,state,country,zip,email) values ('Aravind','7009 Laurel Ct','NJ','US','02740','aravind@gmail.com')
 
+insert into crm.customers
+(first_name,street,state,country,zip,email) values ('Ajith','3751 State Rd','NJ','US','66666','ajith@inrika.com')
 
+
+select * from crm.customers

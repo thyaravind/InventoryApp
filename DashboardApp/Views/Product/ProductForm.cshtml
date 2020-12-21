@@ -1,0 +1,81 @@
+﻿using DashboardApp.Models;
+
+@model DashboardApp.Models.Product
+@{
+    Layout = "/Views/shared/_Layout.cshtml";
+}
+
+
+@section Chamber
+{
+    <!-- Html.EditorForModel()-->
+
+    @using (Html.BeginForm("CreateProduct", "Product"))
+    {
+
+        <div>
+            @Html.DisplayName("Name")
+            @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Name)
+        </div>
+        <br />
+        <div>
+            @Html.DisplayNameFor(x => x.Sku)
+            @Html.TextBoxFor(x => x.Sku, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Sku)
+        </div>
+
+        <br />
+        <div>
+            @Html.DisplayNameFor(x => x.CollectionId)
+            @Html.DropDownListFor(
+            x => x.CollectionId,
+            new SelectList(
+                ViewBag.Collections, "CollectionId", "Name"
+                ), new { @class = "form-select" })
+        </div>
+
+        <br />
+        <div>
+            @Html.DisplayNameFor(x => x.Gtin)
+            @Html.TextBoxFor(x => x.Gtin, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Gtin)
+        </div>
+
+        <br />
+        <div>
+            @Html.DisplayNameFor(x => x.Price)
+            @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Price)
+        </div>
+        <br/>
+        <div>
+            @Html.DisplayNameFor(x => x.Weight)
+            @Html.TextBoxFor(x => x.Weight, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Weight)
+        </div>
+        <br />
+        <div>
+            @Html.DisplayNameFor(x => x.Description)
+            @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            @Html.DisplayNameFor(x => x.Highlights)
+            @Html.TextAreaFor(x => x.Highlights, new { @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            @Html.DisplayNameFor(x => x.CurrentStock)
+            @Html.TextBoxFor(x => x.CurrentStock, new { @class = "form-control" })
+        </div>
+        <br />
+        <input type="submit" class="btn btn-primary" value="Create Product" />
+
+    }
+
+
+
+}
+
+

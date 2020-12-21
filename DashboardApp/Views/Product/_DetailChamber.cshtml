@@ -1,0 +1,53 @@
+﻿@using DashboardApp.Models
+@model Product
+
+
+
+
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Detail</th>
+        <th scope="col">Particulars</th>
+    </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <th scope="row">Product Name</th>
+            <td>@Model.Name</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Stock Keeping Unit</th>
+            <td>@Model.Sku</td>
+        </tr>
+
+
+        <tr>
+            <th scope="row">Current Price</th>
+            <td>@Model.Price</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Product Desription</th>
+            <td>@Model.Description</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Product Highlights</th>
+            <td>@Model.Highlights</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Product Weight</th>
+            <td>@Model.Weight</td>
+        </tr>
+
+
+    </tbody>
+</table>
+
+<input type="button" class="btn btn-primary" value="Edit" onclick="location.href='@Url.Action($"Edit/{Model.Sku}", "Product")'"/>
+<input type="button" class="btn btn-danger" value="Delete" onclick="location.href='@Url.Action($"Delete/{Model.Sku}", "Product")'" />

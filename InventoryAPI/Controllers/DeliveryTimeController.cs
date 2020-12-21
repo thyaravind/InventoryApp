@@ -3,16 +3,22 @@ using InventoryAPI.Data.Entities;
 using InventoryAPI.Data.ExternalDataAccess;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using static InventoryAPI.Data.Entities.UPSRequest;
+using static InventoryAPI.Data.DataObjects.FastestDeliveryRequestObj;
+using static InventoryAPI.Data.Entities.UPSRequestObj;
 using static InventoryAPI.Data.Entities.UpsResponseObj;
-using Address = InventoryAPI.Data.Entities.UPSRequest.Address;
-using Address2 = InventoryAPI.Data.Entities.UPSRequest.Address2;
-using Pickup = InventoryAPI.Data.Entities.UPSRequest.Pickup;
-using ShipFrom = InventoryAPI.Data.Entities.UPSRequest.ShipFrom;
-using ShipmentWeight = InventoryAPI.Data.Entities.UPSRequest.ShipmentWeight;
-using ShipTo = InventoryAPI.Data.Entities.UPSRequest.ShipTo;
-using TransactionReference = InventoryAPI.Data.Entities.UPSRequest.TransactionReference;
-using UnitOfMeasurement = InventoryAPI.Data.Entities.UPSRequest.UnitOfMeasurement;
+using Address = InventoryAPI.Data.Entities.UPSRequestObj.Address;
+using Address2 = InventoryAPI.Data.Entities.UPSRequestObj.Address2;
+using Pickup = InventoryAPI.Data.Entities.UPSRequestObj.Pickup;
+using ShipFrom = InventoryAPI.Data.Entities.UPSRequestObj.ShipFrom;
+using ShipmentWeight = InventoryAPI.Data.Entities.UPSRequestObj.ShipmentWeight;
+using ShipTo = InventoryAPI.Data.Entities.UPSRequestObj.ShipTo;
+using TransactionReference = InventoryAPI.Data.Entities.UPSRequestObj.TransactionReference;
+using UnitOfMeasurement = InventoryAPI.Data.Entities.UPSRequestObj.UnitOfMeasurement;
+using InventoryAPI.Data.DataAccess;
+using System.Collections.Generic;
+using System;
+using InventoryAPI.BusinessLogic;
+using InventoryAPI.Data.DataObjects;
 
 namespace InventoryAPI.Controllers
 
@@ -23,8 +29,9 @@ namespace InventoryAPI.Controllers
         [HttpGet]
         public async Task<UpsResponse> GetDeliveryTime()
         {
-            
-            var request = new UPSRequest.Root {
+
+            var request = new UPSRequestObj.UpsRequest
+            {
 
                 TimeInTransitRequest = new TimeInTransitRequest
                 {
@@ -98,16 +105,32 @@ namespace InventoryAPI.Controllers
 
             var RequestSerialized = JsonConvert.SerializeObject(request);
 
-            UpsResponse resp = await UPS.GetUPS(RequestSerialized);
+            UpsResponse resp = await UPS.GetUPSTimeInTransit(RequestSerialized);
 
-            
-            
+
+
             return resp;
+        }
+
+
+
+        [HttpPost]
+        public async Task<List<string>> GetFastestDelivery([FromBody] FastestDeliveryRequestObj deliveryRequest)
+        {
+
+
+            var ProbableDeliveryDates = await ProcessDelivery.GetFastestdeliveryAsync(deliveryRequest);
+
+
+            return ProbableDeliveryDates;
+
         }
 
 
 
 
 
+
     }
+
 }

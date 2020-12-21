@@ -2,18 +2,18 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using Dapper;
+using InventoryAPI.Data.DataObjects;
+using InventoryAPI.DataAccess;
 
-namespace InventoryAPI.DataAccess.DataAccess
+namespace InventoryAPI.Data.DataAccess
 {
-    public class DeliveryTime
+    public static class DeliveryTime
     {
 
-        public static IEnumerable<int> GetFastestDeliveryTime(int zip)
-
+        public static List<ZipObj> GetNearestWarehouses(string zip)
 
         {
-            int id = zip;
-
+            var zips = new List<ZipObj>();
 
             try
             {
@@ -23,7 +23,7 @@ namespace InventoryAPI.DataAccess.DataAccess
                 using (SqlConnection connection = new SqlConnection(helper.Builder.ConnectionString))
                 {
                     connection.Open();
-                    var zips = connection.Query<int>("exec inventory.spGetWarehouseByRegion @regionID", new { regionID = id });
+                    zips = (List<ZipObj>)connection.Query<ZipObj>("exec inventory.spGetNearestWarehouses @zip_code", new { zip_code = zip });
                     return zips;
                 }
             }
@@ -35,7 +35,12 @@ namespace InventoryAPI.DataAccess.DataAccess
             return null;
 
         }
+
+
+
+
         
         
     }
 }
+

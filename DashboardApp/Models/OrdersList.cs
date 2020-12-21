@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace InventoryApp.Models
+namespace DashboardApp.Models
 {
     public class OrdersList
     {

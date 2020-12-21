@@ -1,8 +1,13 @@
-alter procedure inventory.spGetWarehouseByRegion
-@id int
+alter procedure inventory.spGetNearestWarehouses
+@zip varchar(15)
 as
 BEGIN
-select zip from inventory.warehouses where regionID = @id
+
+select zip,cI.stock from inventory.warehouses
+join inventory.currentInventory cI
+on warehouses.warehouseID = cI.warehouseID
+where  regionID = (select regionID from inventory.regionZipcodes
+ where zip = @zip)
 end
 
-exec inventory.spGetWarehouseByRegion 1
+exec inventory.spGetNearestWarehouses '85281'

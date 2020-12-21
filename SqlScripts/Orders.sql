@@ -58,6 +58,22 @@ create table accounts.paymentTypes
 )
 
 
+drop table if exists accounts.orderStatus
+create table accounts.orderStatus (
+    orderID int Unique NOT NULL,
+    warehouseID tinyint,
+    statusID tinyint
+)
+
+
+drop table if exists accounts.OrderStatusTypes
+create table accounts.OrderStatusTypes (
+    statusID tinyint PRIMARY KEY IDENTITY,
+    status varchar(30)
+)
+
+
+
 
 
 
@@ -96,10 +112,28 @@ values (1,'1023 E University','1023 E University','1023 E University','AZ','US',
 
 
 
-insert into accounts.orders
-(customerID,paymentID,delivery_typeID,delivery_partnerID,number_of_products,street,address_1ine_2,address_line_3,state,country,zip) values (1,1,1,1,2,'1023 E University','1023 E University','1023 E University','AZ','US','85281')
+insert into accounts.OrderStatusTypes
+values ('Open'),('Pending'),('InTransit'),('Returnable'),('Closed')
+
+insert into accounts.orderStatus
+values (1009,1,1),(1010,1,5),(1012,1,1)
+
+
+
+
 
 insert into accounts.orders
-(customerID,paymentID,delivery_typeID,delivery_partnerID,number_of_products,street,address_1ine_2,address_line_3,state,country,zip) values (1,1,1,1,2,'7009 County St','7009 County St','7009 County St','MA','US','02740')
+(customerID,paymentID,delivery_typeID,delivery_partnerID,number_of_products,street,address_1ine_2,address_line_3,state,country,zip_code) values (1,1,1,1,2,'1023 E University','1023 E University','1023 E University','AZ','US','85281')
+
+insert into accounts.orders
+(customerID,paymentID,delivery_typeID,delivery_partnerID,number_of_products,street,address_1ine_2,address_line_3,state,country,zip_code) values (1,1,1,1,2,'7009 County St','7009 County St','7009 County St','MA','US','02740')
+
+insert into accounts.orders
+(customerID,paymentID,delivery_typeID,delivery_partnerID,number_of_products,street,address_1ine_2,address_line_3,state,country,zip_code) values (2,1,2,2,2,'Bank Street','','Apt 204','NY','US','666666')
+
 
 EXEC sp_rename 'accounts.orders.zip', 'zip_code', 'COLUMN';
+
+select * from accounts.orders
+select * from accounts.OrderStatusTypes
+select * from accounts.orderStatus

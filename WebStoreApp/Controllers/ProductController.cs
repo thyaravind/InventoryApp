@@ -5,10 +5,10 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Ajax;
 using System.Web.Routing;
-using InventoryApp.Data;
-using InventoryApp.Models;
+using DashboardApp.Data;
+using DashboardApp.Models;
 
-namespace InventoryApp.Controllers
+namespace DashboardApp.Controllers
 
 {   [RoutePrefix("product")]
     //[Route({"action=index"})]

@@ -1,8 +1,8 @@
 using System.Linq;
 using System.Web.Mvc;
-using InventoryApp.Filters;
+using DashboardApp.Filters;
 
-namespace InventoryApp
+namespace DashboardApp
 {
     public class FilterConfig
     {

@@ -1,7 +1,7 @@
 using System.Web.Mvc;
-using InventoryApp.Filters;
+using DashboardApp.Filters;
 
-namespace InventoryApp.Controllers
+namespace DashboardApp.Controllers
 {
     public class AccountController : Controller
     {

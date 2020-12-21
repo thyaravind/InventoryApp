@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Dapper;
 using DashboardApp.Controllers;
-using InventoryApp.Models;
+using DashboardApp.Models;
 
 namespace DashboardApp.DataAccess
 {
@@ -50,9 +51,8 @@ namespace DashboardApp.DataAccess
 
         }
 
-        internal static Order GetCurrentOrder(int orderID)
+        public static Order GetCurrentOrder(int orderID)
         {
-            var ordersList = new OrdersList();
 
             try
             {
@@ -68,7 +68,7 @@ namespace DashboardApp.DataAccess
             }
             catch (SqlException e)
             {
-                ordersList.status = e.ToString();
+                _ = e.ToString();
             }
 
 
@@ -103,6 +103,33 @@ namespace DashboardApp.DataAccess
             ordersList.status = "Orders retrieved";
             return ordersList;
 
+        }
+
+
+        public static Order GetCurrentOrder2(int orderID)
+        {
+            var CurrentOrder = new Order();
+
+            try
+            {
+                var helper = new HelperClass();
+                using (SqlConnection connection = new SqlConnection(helper.Builder.ConnectionString))
+                {
+                    connection.Open();
+                    var order = connection.Query<Order>("exec accounts.spGetCurrentOrder @OrderID", new { OrderID = orderID });
+                    CurrentOrder = (Order)order.ElementAt(0);
+
+                }
+
+            }
+
+            catch (SqlException e)
+            {
+                _ = e.ToString();
+            }
+
+
+            return CurrentOrder;
         }
         
         

@@ -1,9 +1,9 @@
 using System.Runtime.Serialization;
 using System.Web.Mvc;
 using System.Web.Security;
-using InventoryApp.Models;
+using DashboardApp.Models;
 
-namespace InventoryApp.Controllers
+namespace DashboardApp.Controllers
 {
     public class LoginController : Controller
     {

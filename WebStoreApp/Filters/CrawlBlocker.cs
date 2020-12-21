@@ -1,6 +1,6 @@
 using System.Web.Mvc;
 
-namespace InventoryApp.Filters
+namespace DashboardApp.Filters
 {
     public class CrawlBlocker : ActionFilterAttribute
     {

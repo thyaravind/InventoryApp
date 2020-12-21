@@ -1,9 +1,9 @@
 <ul class="list-group">
-      <li class="list-group-item active main_color_bg links" aria-current="true"></li>
-    <li class="list-group-item">@Html.ActionLink("Dashboard", "Index", "Home") </li>
-    <li class="list-group-item">@Html.ActionLink("Orders", "OrdersByWarehouse/1", "Order") <span class="badge main_color_bg rounded-pill">14</span> </li>
-    <li class="list-group-item">@Html.ActionLink("Products", "Index", "Product") </li>
-    <li class="list-group-item">@Html.ActionLink("Collections", "Index", "Collection") </li>
+    <li class="list-group-item active main_color_bg links" aria-current="true">Dashboard</li>
+    <li class="list-group-item">@Html.ActionLink("Orders", "OrdersByWarehouse/1", "Order") <span class="badge main_color_bg rounded-pill">3</span> </li>
+    <li class="list-group-item" aria-current="true">Products</li>
+    <li class="list-group-item">@Html.ActionLink("All Products", "Products", "Product") </li>
+    <li class="list-group-item">@Html.ActionLink("Add a product", "ProductForm", "Product") </li>
 </ul>
 
 

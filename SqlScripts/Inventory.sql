@@ -10,7 +10,8 @@ BEGIN
         name varchar(100) NOT NULL UNIQUE,
         collectionID SMALLINT,
         GTIN varchar(20),
-        price  SMALLINT
+        price  SMALLINT,
+        weight REAL
     )
 
     drop table if exists inventory.productDescription
@@ -128,6 +129,14 @@ drop table if exists inventory.regions
     )
 
 
+drop table if exists inventory.regionZipcodes
+    create table inventory.regionZipcodes
+    (regionID tinyint NOT NULL,
+    zip            varchar(15)  NOT NULL
+
+    )
+
+
 
 
 exec spResetProducts
@@ -177,7 +186,8 @@ add constraint FK_Warehouse_Region Foreign key (regionID) REFERENCES inventory.r
 ---todo Order Service will send updates when requested
 
 
-
+Alter table inventory.regionZipcodes
+add constraint FK_RegionZipCodes_Region Foreign key (regionID) REFERENCES inventory.regions(regionID)
 
 
 
@@ -186,10 +196,10 @@ add constraint FK_Warehouse_Region Foreign key (regionID) REFERENCES inventory.r
 BEGIN
 
     insert into inventory.deliveryPartners
-    values ('USPS')
+    values ('UPS'),('Fedex')
 
     insert into inventory.deliveryTypes
-    values ('Normal')
+    values ('Expedited'),('Same Day Delivery')
 
     insert into inventory.regions
     values ('South West'),('North West'),('South East'),('North East'),('Mid North'),('Mid South')
@@ -224,8 +234,54 @@ BEGIN
     insert into inventory.warehouses
     (name,regionID,zip)values ('Pennsylvania',4,16801)
 
-    select * from inventory.warehouses
-
+    insert into inventory.warehouses
+    (name,regionID,zip)values ('Pennsylvania second',4,16801)
 
 END
 
+BEGIN
+
+
+    insert into inventory.collections
+    values ('Travel','Travel diaries collection')
+
+
+    insert into inventory.regionZipcodes
+    values (5,'02740'),(2,'85281'),(4,'16801')
+
+    insert into inventory.currentInventory
+    values (1,'TJWTE001',20), (2,'TJWTE001',10)
+
+
+        insert into inventory.currentInventory
+    values (1,'MJEND001',20), (2,'CJCOL001',100)
+
+        insert into inventory.productDescription
+    values ('TJWTE001','The description of product - travel diaries','highlight 1, highlight 2')
+
+insert into inventory.productDescription
+    values ('MJEND001','The description of product - milestone diaries','another highlight 1, another highlight 2')
+
+
+
+insert into inventory.collections
+values ('Fitness','Fitness product collection')
+
+insert into inventory.collections
+values ('Home','Home product collection')
+
+END
+
+
+select * from inventory.products
+select * from inventory.productDescription
+
+select * from inventory.collections
+
+select * from inventory.regions
+
+select * from inventory.regionZipcodes
+
+select * from inventory.currentInventory
+
+select * from inventory.warehouses

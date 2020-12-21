@@ -1,0 +1,77 @@
+﻿@using DashboardApp.Models
+@model Tuple<List<Product>,Product>
+
+
+@{
+    Layout = "/Views/shared/_Layout.cshtml";
+    AjaxOptions ajaxoptions = new AjaxOptions
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "DetailChamber"
+
+    };
+}
+
+
+
+
+@section Chamber
+{
+
+
+    @using (Ajax.BeginForm("RenderDetail", "Order",ajaxoptions,new { id = "UpdateForm" }))
+    {
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Product SKU</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Collection</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+
+                @foreach (var product in Model.Item1)
+                {
+
+                <tr>
+                    <th scope="row">@Html.ActionLink(product.Sku,$"Products/{product.Sku}","Order")</th>
+                    <td>@product.Name</td>
+                    <td>@product.CollectionName</td>
+                    <td>@product.Description</td>
+                </tr>
+
+                }
+
+
+            </tbody>
+        </table>
+
+    }
+
+
+}
+
+@section DetailChamber
+{
+
+    <div class="card" id="DetailChamber">
+        <div class="card-body">
+
+            @Html.Partial("_DetailChamber", Model.Item2)
+
+            </div>
+    </div>
+
+
+
+
+
+}
+
+

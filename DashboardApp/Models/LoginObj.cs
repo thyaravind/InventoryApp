@@ -1,4 +1,4 @@
-namespace InventoryApp.Models
+namespace DashboardApp.Models
 {
     public class LoginObj
     {

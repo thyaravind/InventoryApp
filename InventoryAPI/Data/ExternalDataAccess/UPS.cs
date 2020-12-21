@@ -12,7 +12,7 @@ namespace InventoryAPI.Data.ExternalDataAccess
     {
 
 
-        public static async Task<UpsResponse> GetUPS(string request)
+        public static async Task<UpsResponse> GetUPSTimeInTransit(string request)
         {
          
             

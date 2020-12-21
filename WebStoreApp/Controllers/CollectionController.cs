@@ -1,6 +1,6 @@
 using System.Web.Mvc;
 
-namespace InventoryApp.Controllers
+namespace DashboardApp.Controllers
 {
     public class CollectionController : Controller
     {

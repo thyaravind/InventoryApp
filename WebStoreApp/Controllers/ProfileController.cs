@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace InventoryApp.Controllers
+namespace DashboardApp.Controllers
 {
     public class ProfileController : Controller
     {

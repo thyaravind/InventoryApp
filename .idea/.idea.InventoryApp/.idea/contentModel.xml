@@ -31,8 +31,10 @@
         </e>
         <e p="DashboardApp.csproj" t="IncludeRecursive" />
         <e p="DataAccess" t="Include">
+          <e p="CollectionAccess.cs" t="Include" />
           <e p="GetOrders.cs" t="Include" />
           <e p="HelperClass.cs" t="Include" />
+          <e p="ProductAccess.cs" t="Include" />
         </e>
         <e p="favicon.ico" t="Include" />
         <e p="fonts" t="Include">
@@ -45,6 +47,7 @@
         <e p="Global.asax" t="Include" />
         <e p="Global.asax.cs" t="Include" />
         <e p="Models" t="Include">
+          <e p="Collection.cs" t="Include" />
           <e p="LoginObj.cs" t="Include" />
           <e p="Order.cs" t="Include" />
           <e p="OrdersList.cs" t="Include" />
@@ -55,7 +58,10 @@
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
-        <e p="Scripts" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="jquery.unobtrusive-ajax.js" t="Include" />
+          <e p="jquery.unobtrusive-ajax.min.js" t="Include" />
+        </e>
         <e p="Views" t="Include">
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Collection" t="Include">
@@ -68,16 +74,24 @@
             <e p="IndexTemplate.cshtml" t="Include" />
           </e>
           <e p="Order" t="Include">
+            <e p="_DetailChamber.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
+            <e p="Orders (copy).cshtml" t="Include" />
             <e p="orders.cshtml" t="Include" />
           </e>
           <e p="Product" t="Include">
+            <e p="_DetailChamber.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
+            <e p="ProductForm.cshtml" t="Include" />
+            <e p="Products.cshtml" t="Include" />
+            <e p="Products2.cshtml" t="Include" />
+            <e p="Status.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
             <e p="_MainChamber.cshtml" t="Include" />
             <e p="_NavBar.cshtml" t="Include" />
+            <e p="_SideBar (copy).cshtml" t="Include" />
             <e p="_SideBar.cshtml" t="Include" />
             <e p="Error.cshtml" t="Include" />
           </e>
@@ -121,6 +135,9 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="BusinessLogic" t="Include">
+          <e p="ProcessDelivery.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
           <e p="ApiHelper.cs" t="Include" />
           <e p="deliveryTimeController.cs" t="Include" />
@@ -133,9 +150,12 @@
             <e p="StockData.cs" t="Include" />
           </e>
           <e p="DataObjects" t="Include">
+            <e p="DeliveryOptionsRequestObj.cs" t="Include" />
+            <e p="FastestDeliveryRequestObj.cs" t="Include" />
             <e p="OrdersList.cs" t="Include" />
-            <e p="UPSRequest.cs" t="Include" />
+            <e p="UPSRequestObj.cs" t="Include" />
             <e p="UpsResponseObj.cs" t="Include" />
+            <e p="ZipObj.cs" t="Include" />
           </e>
           <e p="Entities" t="Include">
             <e p="Collection.cs" t="Include" />

@@ -1,4 +1,4 @@
-﻿@using InventoryApp.Models
+﻿@using DashboardApp.Models
 @model Order
 
 
@@ -7,35 +7,46 @@
 
 <table class="table">
     <thead>
-        <tr>
-            <th scope="col">Detail</th>
-            <th scope="col">Particulars</th>
-        </tr>
+    <tr>
+        <th scope="col">Detail</th>
+        <th scope="col">Particulars</th>
+    </tr>
     </thead>
     <tbody>
 
-            <tr>
-                <th scope="row">Customer Name</th>
-                <td>@Model.CustomerName</td>
-            </tr>
+    <tr>
+        <th scope="row">Customer Name</th>
+        <td>@Model.CustomerName</td>
+    </tr>
 
-            <tr>
-                <th scope="row">Customer Email</th>
-                <td>@Model.CustomerEmail</td>
-            </tr>
+    <tr>
+        <th scope="row">Customer Email</th>
+        <td>@Model.CustomerEmail</td>
+    </tr>
 
-            <tr>
-                <th scope="row">Delivery Type</th>
-                <td>@Model.DeliveryType</td>
-            </tr>
+    <tr>
+        <th scope="row">Delivery Type</th>
+        <td>@Model.DeliveryType</td>
+    </tr>
 
-            <tr>
-                <th scope="row">Delivery Partner</th>
-                <td>@Model.DeliveryPartner</td>
-            </tr>
+    <tr>
+        <th scope="row">Delivery Partner</th>
+        <td>@Model.DeliveryPartner</td>
+    </tr>
+    
+    <tr>
+        <th scope="row">Shipping Address</th>
+        <td>@Model.Street</td>
+        <td>@Model.AddressLine3</td>
+        <td>@Model.State</td>
+        <td>@Model.Country</td>
+    </tr>
+    
 
 
 
 
     </tbody>
 </table>
+
+<input type="button" class="btn btn-primary" value="Process Shipment" />

@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace InventoryApp.Models
+namespace DashboardApp.Models
 {
     public class Product
     {

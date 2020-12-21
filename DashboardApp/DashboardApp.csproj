@@ -173,6 +173,9 @@
         <Compile Include="Controllers\OrderController.cs" />
         <Compile Include="Models\LoginObj.cs" />
         <Compile Include="Models\Product.cs" />
+        <Compile Include="Models\Collection.cs" />
+        <Compile Include="DataAccess\ProductAccess.cs" />
+        <Compile Include="DataAccess\CollectionAccess.cs" />
     </ItemGroup>
     <ItemGroup>
         <Content Include="Content\custom.css" />
@@ -205,6 +208,15 @@
         <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
         <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
         <Content Include="Views\Order\Orders %28copy%29.cshtml" />
+        <Content Include="Views\Product\ProductForm.cshtml" />
+        <Content Include="Views\Product\Status.cshtml" />
+        <Content Include="Views\Product\Products.cshtml" />
+        <Content Include="Views\Product\Products2.cshtml" />
+        <Content Include="Views\Product\_DetailChamber.cshtml" />
+        <Content Include="Views\Shared\_SideBar %28copy%29.cshtml" />
+        <Content Include="Scripts\jquery.validate.min.js" />
+        <Content Include="Scripts\jquery.validate.js" />
+        <Content Include="Scripts\jquery.validate-vsdoc.js" />
     </ItemGroup>
     <ItemGroup>
         <Folder Include="App_Data" />
